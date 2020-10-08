@@ -78,6 +78,19 @@ p {
 
 }
 
+.ms_acronym {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.ms_btn-acc {
+  color: #006afb;
+  font-size: 13px;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
 /* sezioni generali */
 .ms_section {
   padding: 40px 0;
@@ -307,4 +320,59 @@ header .ms_jumbo {
 
 .ms_slider .text-center .list-inline .ms_active{
   color:#166aff;
+}
+
+/* section regions */
+
+.ms_regions .ms_intro {
+  padding-bottom: 10px;
+}
+
+.ms_regions .ms_border-inf {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+  font-size: 12px;
+}
+
+.ms_regions .ms_border-inf .ms_sp-center{
+  margin-left: 35px;
+  opacity: .6;
+}
+
+.ms_regions .ms_border-inf > span {
+  margin-left: 8px;
+}
+
+.ms_regions .ms_border-inf a {
+  color: #33bccb;
+  position: absolute;
+  right: 30px;
+}
+
+.ms_regions .ms_border-inf:last-child {
+  border: none;
+}
+
+/* slider-footer */
+
+.ms_blockquote h5 {
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.ms_slider-footer {
+  padding-bottom: 40px;
+
+}
+
+.ms_slider-single.ms_slider-footer.ms_secondary .ms_blue-link{
+  font-size: 12px;
+  padding-top: 50px;
+
+}
+
+.ms_blockquote p:last-of-type {
+  font-size: 12px;
+  color: #000;
+  padding-top: 0;
 }
