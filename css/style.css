@@ -221,4 +221,33 @@ header .ms_jumbo {
   padding: 0px;
 }
 
-/* END partners */
+/* deploy */
+
+.ms_intro h2{
+  font-size: 36px;
+
+}
+
+.ms_intro p {
+  font-size: 20px;
+}
+
+.ms_deploy ul {
+  padding: 0;
+  padding-bottom: 40px;
+  color: #abb2c1
+}
+
+.ms_deploy ul li {
+  font-size: 18px;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+}
+
+.ms_card h3 {
+  font-size: 18px;
+}
+
+.ms_card p {
+  font-size: 17px;
+}
