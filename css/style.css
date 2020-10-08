@@ -51,7 +51,6 @@ p {
   background-size: 20px;
   background-color:#fff;
   color: #000;
-  border: .1px solid lightgrey;
 }
 
 .ms_blue-link{
@@ -89,6 +88,10 @@ p {
   font-size: 13px;
   padding: 10px 15px;
   margin: 10px 0;
+}
+
+.ms_opacity-5 {
+  opacity: .5;
 }
 
 /* sezioni generali */
@@ -375,4 +378,92 @@ header .ms_jumbo {
   font-size: 12px;
   color: #000;
   padding-top: 0;
+}
+
+/* footer */
+.ms_footer {
+  padding: 40px 0;
+  background-color: #01154c;
+  color: white;
+}
+.ms_footer [class*="col-"]> [class*="col-"] {
+  padding: 0;
+}
+
+.ms_footer ul {
+  padding: 10px 0;
+}
+.ms_footer .ms_menu-footer a {
+  color: #fff;
+  opacity: .5;
+  font-size: 14px;
+}
+.ms_footer h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+footer .ms_credits {
+padding-top: 10px;
+line-height: 10px;
+}
+.ms_social li i {
+  font-size: 17px;
+}
+
+/* media query */
+
+/* xs - smartphone */
+@media screen and (max-width:767px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .ms_jumbo .ms_teaser .ms_white-title h1 {
+      font-size: 45px;
+    }
+  .ms_jumbo .ms_teaser p {
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    /* main */
+
+    /* section client */
+    .ms_client .ms_partners .ms_item-logo{
+      width: calc(100%/3);
+      height: auto;
+      padding: 0 10px;
+    }
+    .ms_partners .ms_item-logo img {
+      width: 100%;
+      height: auto;
+    }
+
+  .ms_deploy ul {
+    padding-bottom: 0px;
+  }
+  /* section deploy */
+  .ms_services .ms_card {
+    margin-bottom: 40px;
+  }
+
+}
+
+/* sm - tablet */
+@media screen and (min-width:768px) and (max-width: 991px) {
+  .ms_jumbo .ms_teaser h1 {
+    font-size: 37px;
+  }
+  .ms_jumbo .ms_teaser p{
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ms_slider .text-center .list-inline {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
